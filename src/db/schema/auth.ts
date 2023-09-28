@@ -2,7 +2,9 @@ import { blob, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
 export const user = sqliteTable("user", {
   id: text("id").primaryKey(),
-  handle: text("handle").notNull(),
+  name: text("name").notNull(),
+  email: text("email"),
+  picture: text("picture").notNull(),
   // other user attributes
 });
 

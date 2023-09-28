@@ -17,8 +17,9 @@ const env = createEnv({
           : true;
       }),
     NODE_ENV: z.enum(["development", "production"]),
-    GITHUB_CLIENT_ID: z.string(),
-    GITHUB_CLIENT_SECRET: z.string(),
+    GOOGLE_CLIENT_ID: z.string(),
+    GOOGLE_CLIENT_SECRET: z.string(),
+    HOST_URL: z.string().min(1),
   },
   runtimeEnv: process.env,
 });

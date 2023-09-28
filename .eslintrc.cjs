@@ -49,6 +49,7 @@ const config = {
 
     // This rule doesn't seem to be working properly
     "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/dot-notation": "off",
   },
 };
 

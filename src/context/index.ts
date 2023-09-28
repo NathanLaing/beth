@@ -1,5 +1,4 @@
 import { logger } from "@bogeychan/elysia-logger";
-import { Logger } from "@bogeychan/elysia-logger/types";
 import { cron } from "@elysiajs/cron";
 import { HoltLogger } from "@tlscipher/holt";
 import { bethStack } from "beth-stack/elysia";
